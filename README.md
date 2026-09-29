@@ -1,5 +1,4 @@
-# Hệ thống quản lý Trung tâm Thăng Long – Cơ sở liên kết Bình Tân
-
+# Hệ thống quản lý Trung tâm Thăng Long
 Web app quản lý trung tâm luyện thi, chạy hoàn toàn trên **GitHub Pages**, không cần máy chủ riêng.
 
 **Địa chỉ trung tâm:** 542B Tỉnh lộ 10, Phường Bình Trị Đông B, Quận Bình Tân, TP.HCM
