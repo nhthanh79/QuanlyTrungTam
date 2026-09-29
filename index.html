@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trung tâm Thăng Long – Cơ sở liên kết Bình Tân · Hệ thống quản lý</title>
+<meta name="description" content="Hệ thống quản lý Trung tâm Thăng Long – Cơ sở liên kết Bình Tân: học phí, thời khoá biểu, điểm danh, tài liệu, hỏi đáp AI.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%23F59E0B%22/%3E%3Ctext x=%2232%22 y=%2242%22 font-family=%22Arial%22 font-size=%2228%22 font-weight=%22800%22 text-anchor=%22middle%22 fill=%22%231E3A8A%22%3ETL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+if (window.tailwind) tailwind.config = { theme: { extend: {
+  colors: {
+    brand: { DEFAULT:'#1E3A8A', 700:'#1E3A8A', 600:'#1D4ED8', 800:'#172E6E', 900:'#12245A' },
+    accent: { DEFAULT:'#D97706', 400:'#F59E0B', 600:'#B45309' },
+    page:'var(--page)', surface:'var(--surface)', ink:'var(--ink)', muted:'var(--muted)',
+    line:'var(--line)', soft:'var(--soft)', bt:'var(--brand-text)', tint:'var(--brand-tint)', warm:'var(--accent-tint)'
+  },
+  fontFamily: { sans: ['Inter','Roboto','system-ui','Segoe UI','Arial','sans-serif'] }
+}}};
+</script>
+<script>
+window.MathJax = {
+  loader: { load: ['[tex]/mhchem'] },
+  tex: { inlineMath: [['$','$'],['\\(','\\)']], displayMath: [['$$','$$'],['\\[','\\]']], packages: {'[+]': ['mhchem']} },
+  svg: { fontCache: 'global' },
+  startup: { typeset: false }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg-full.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app" style="height:100%"></div>
+<div class="toast" id="toasts" aria-live="polite"></div>
+
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
